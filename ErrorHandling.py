@@ -8,7 +8,7 @@ def run():
     except ValueError as e:
         print('Wow, there was an error: ' + str(e))
     finally:
-        print('Wow, there was an unexpected error')
+        print('NO matter what, this print will be PRINTED!')
     print('My program is still running')
 
 
